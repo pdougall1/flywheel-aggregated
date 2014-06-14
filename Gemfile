@@ -5,6 +5,7 @@ gem 'rails', '4.0.1'
 gem 'rails-api'
 gem 'pg'
 gem 'protected_attributes'
+gem "redis"
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
