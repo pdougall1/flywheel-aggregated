@@ -6,6 +6,7 @@ gem 'rails-api'
 gem 'pg'
 gem 'protected_attributes'
 gem "redis"
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'

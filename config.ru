@@ -2,3 +2,11 @@
 
 require ::File.expand_path('../config/environment',  __FILE__)
 run Rails.application
+
+require 'rack/cors' 
+  use Rack::Cors do 
+  allow do 
+    origins '*' 
+    resource '/fonts/*', :headers => :any, :methods => :get 
+  end 
+end
