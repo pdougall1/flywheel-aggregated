@@ -18,11 +18,9 @@ class LogHandler
 
   def find_logs(dates)
     dates = [dates] unless dates.is_a? Array
-    dougs = dates.map do |date|
-      JSON.parse $redis.get(date)
+    dates.map do |date|
+      JSON.parse $redis.get(date) if $redis.get(date)
     end.compact
-    debugger
-    dougs
   end
 
   def self.sorting_id(log)
