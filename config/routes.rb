@@ -2,6 +2,7 @@ FlywheelAggregated::Application.routes.draw do
 
 
   put 'dates' => 'dates#update'
+  get 'logs' => 'dates#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

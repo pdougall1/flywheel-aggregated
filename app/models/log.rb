@@ -15,13 +15,14 @@ class Log
     ATTRIBUTES.each do |attr|
       self.send("#{attr.to_s}=".to_sym, @aggregator.send("get_#{attr.to_s}".to_sym, logs))
     end
+    self.unique_id = "#{self['vendor']}_#{self['date']}_#{self['media_channel']}_#{self['media_type']}_#{self['market']}"
     self
   end
 
   def get_values
     {
       id: self.unique_id,
-      date: self.date.strftime('%Y-%m-%d'),
+      date: self.date,
       vendor: self.vendor,
       media_channel: self.media_channel,
       media_type: self.media_type,

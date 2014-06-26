@@ -1,7 +1,9 @@
 class Aggregator::YellowpagesAggregator < Aggregator::GeneralAggregator
 
   def get_mongoose_logs logs
-    logs.map { |log| MongooseLog.find_by_caller_id(log.customer) }.flatten.compact
+    logs.map do |log| 
+      @mongoose_logs.select { |l| l['caller_id'] == log['customer'] }
+    end
   end
 
 end

@@ -1,0 +1,462 @@
+---
+'AR: Fort Smith - Brand': FT. SMITH
+'AR: Fort Smith - Brand (Mobile)': FT. SMITH
+'AR: Fort Smith - Kool Smiles': FT. SMITH
+'AR: Fort Smith - Kool Smiles (Mobile)': FT. SMITH
+'AR: Fort Smith - Kool Smiles - Spanish': FT. SMITH
+'AR: Fort Smith - Low QS KWs - Brand': FT. SMITH
+'AR: Fort Smith - Low QS KWs - NonBrand': FT. SMITH
+'AR: Little Rock - Brand': LITTLE ROCK
+'AR: Little Rock - Brand (Mobile)': LITTLE ROCK
+'AR: Little Rock - Kool Smiles': LITTLE ROCK
+'AR: Little Rock - Kool Smiles (Mobile)': LITTLE ROCK
+'AR: Little Rock - Kool Smiles - Spanish': LITTLE ROCK
+'AR: Little Rock - Low QS KWs - Brand': LITTLE ROCK
+'AR: Little Rock - Low QS KWs - NonBrand': LITTLE ROCK
+'AR: Little Rock - Low QS KWs - NonBrand (Mobile)': LITTLE ROCK
+'AR: Pine Bluff - Brand': LITTLE ROCK
+'AR: Pine Bluff - Brand (Mobile)': LITTLE ROCK
+'AR: Pine Bluff - Kool Smiles': LITTLE ROCK
+'AR: Pine Bluff - Kool Smiles (Mobile)': LITTLE ROCK
+'AR: Pine Bluff - Kool Smiles - Spanish': LITTLE ROCK
+'AR: Pine Bluff - Low QS KWs - NonBrand': LITTLE ROCK
+'AZ: Tucson - Brand': TUCSON
+'AZ: Tucson - Brand (Mobile)': TUCSON
+'AZ: Tucson - Kool Smiles': TUCSON
+'AZ: Tucson - Kool Smiles (Mobile)': TUCSON
+'AZ: Tucson - Kool Smiles - Spanish': TUCSON
+'AZ: Tucson - Low QS KWs - Brand': TUCSON
+'AZ: Tucson - Low QS KWs - NonBrand': TUCSON
+'AZ: Tucson - Low QS KWs - NonBrand (Mobile)': TUCSON
+'AZ: Yuma - Brand': YUMA-EL CENTRO
+'AZ: Yuma - Brand (Mobile)': YUMA-EL CENTRO
+'AZ: Yuma - Kool Smiles': YUMA-EL CENTRO
+'AZ: Yuma - Kool Smiles (Mobile)': YUMA-EL CENTRO
+'AZ: Yuma - Kool Smiles - Spanish': YUMA-EL CENTRO
+'AZ: Yuma - Low QS KWs - NonBrand': YUMA-EL CENTRO
+'CT: Hartford - Brand': HARTFORD-NEW HAVEN
+'CT: Hartford - Brand (Mobile)': HARTFORD-NEW HAVEN
+'CT: Hartford - Kool Smiles': HARTFORD-NEW HAVEN
+'CT: Hartford - Kool Smiles (Mobile)': HARTFORD-NEW HAVEN
+'CT: Hartford - Kool Smiles - Spanish': HARTFORD-NEW HAVEN
+'CT: Hartford - Low QS KWs - Brand': HARTFORD-NEW HAVEN
+'CT: Hartford - Low QS KWs - NonBrand': HARTFORD-NEW HAVEN
+'CT: Hartford - Low QS KWs - NonBrand (Mobile)': HARTFORD-NEW HAVEN
+'GA: Atlanta - Brand': ATLANTA
+'GA: Atlanta - Brand (Mobile)': ATLANTA
+'GA: Atlanta - Kool Smiles': ATLANTA
+'GA: Atlanta - Kool Smiles (Mobile)': ATLANTA
+'GA: Atlanta - Kool Smiles - Spanish': ATLANTA
+'GA: Atlanta - Low QS KWs - Brand': ATLANTA
+'GA: Atlanta - Low QS KWs - NonBrand': ATLANTA
+'GA: Atlanta - Low QS KWs - NonBrand (Mobile)': ATLANTA
+'GA: Buford - Brand': ATLANTA
+'GA: Buford - Brand (Mobile)': ATLANTA
+'GA: Buford - Kool Smiles': ATLANTA
+'GA: Buford - Kool Smiles (Mobile)': ATLANTA
+'GA: Buford - Kool Smiles - Spanish': ATLANTA
+'GA: Buford - Low QS KWs - NonBrand': ATLANTA
+'GA: Buford - Low QS KWs - NonBrand (Mobile)': ATLANTA
+'GA: Cobb - Brand': ATLANTA
+'GA: Cobb - Brand (Mobile)': ATLANTA
+'GA: Cobb - Kool Smiles': ATLANTA
+'GA: Cobb - Kool Smiles (Mobile)': ATLANTA
+'GA: Cobb - Kool Smiles - Spanish': ATLANTA
+'GA: Cobb - Low QS KWs - NonBrand': ATLANTA
+'GA: Cobb - Low QS KWs - NonBrand (Mobile)': ATLANTA
+'GA: Columbus - Brand': COLUMBUS, GA
+'GA: Columbus - Brand (Mobile)': COLUMBUS, GA
+'GA: Columbus - Kool Smiles': COLUMBUS, GA
+'GA: Columbus - Kool Smiles (Mobile)': COLUMBUS, GA
+'GA: Columbus - Kool Smiles - Spanish': COLUMBUS, GA
+'GA: Columbus - Low QS KWs - NonBrand': COLUMBUS, GA
+'GA: Forest Park - Brand': ATLANTA
+'GA: Forest Park - Brand (Mobile)': ATLANTA
+'GA: Forest Park - Kool Smiles': ATLANTA
+'GA: Forest Park - Kool Smiles (Mobile)': ATLANTA
+'GA: Forest Park - Kool Smiles - Spanish': ATLANTA
+'GA: Forest Park - Low QS KWs - NonBrand': ATLANTA
+'GA: Lawrenceville - Brand': ATLANTA
+'GA: Lawrenceville - Brand (Mobile)': ATLANTA
+'GA: Lawrenceville - Kool Smiles': ATLANTA
+'GA: Lawrenceville - Kool Smiles (Mobile)': ATLANTA
+'GA: Lawrenceville - Kool Smiles - Spanish': ATLANTA
+'GA: Lawrenceville - Low QS KWs - Brand': ATLANTA
+'GA: Lawrenceville - Low QS KWs - NonBrand': ATLANTA
+'GA: Lawrenceville - Low QS KWs - NonBrand (Mobile)': ATLANTA
+'GA: Macon - Brand': MACON
+'GA: Macon - Brand (Mobile)': MACON
+'GA: Macon - Kool Smiles': MACON
+'GA: Macon - Kool Smiles (Mobile)': MACON
+'GA: Macon - Kool Smiles - Spanish': MACON
+'GA: Macon - Low QS KWs - Brand': MACON
+'GA: Macon - Low QS KWs - NonBrand': MACON
+'GA: Macon - Low QS KWs - NonBrand (Mobile)': MACON
+'IN: Elkhart - Brand': SOUTH BEND-ELKHART
+'IN: Elkhart - Brand (Mobile)': SOUTH BEND-ELKHART
+'IN: Elkhart - Kool Smiles': SOUTH BEND-ELKHART
+'IN: Elkhart - Kool Smiles (Mobile)': SOUTH BEND-ELKHART
+'IN: Elkhart - Kool Smiles - Spanish': SOUTH BEND-ELKHART
+'IN: Elkhart - Low QS KWs - Brand': SOUTH BEND-ELKHART
+'IN: Elkhart - Low QS KWs - NonBrand': SOUTH BEND-ELKHART
+'IN: Elkhart - Low QS KWs - NonBrand (Mobile)': SOUTH BEND-ELKHART
+'IN: Evansville - Brand': EVANSVILLE
+'IN: Evansville - Brand (Mobile)': EVANSVILLE
+'IN: Evansville - Kool Smiles': EVANSVILLE
+'IN: Evansville - Kool Smiles (Mobile)': EVANSVILLE
+'IN: Evansville - Kool Smiles - Spanish': EVANSVILLE
+'IN: Evansville - Low QS KWs - Brand': EVANSVILLE
+'IN: Evansville - Low QS KWs - NonBrand': EVANSVILLE
+'IN: Evansville - Low QS KWs - NonBrand (Mobile)': EVANSVILLE
+'IN: Fort Wayne - Brand': FT. WAYNE
+'IN: Fort Wayne - Brand (Mobile)': FT. WAYNE
+'IN: Fort Wayne - Kool Smiles': FT. WAYNE
+'IN: Fort Wayne - Kool Smiles (Mobile)': FT. WAYNE
+'IN: Fort Wayne - Kool Smiles - Spanish': FT. WAYNE
+'IN: Fort Wayne - Low QS KWs - Brand': FT. WAYNE
+'IN: Fort Wayne - Low QS KWs - NonBrand': FT. WAYNE
+'IN: Fort Wayne - Low QS KWs - NonBrand (Mobile)': FT. WAYNE
+'IN: Gary/Highland - Brand': CHICAGO
+'IN: Gary/Highland - Kool Smiles': CHICAGO
+'IN: Gary/Highland - Low QS KWs - NonBrand': CHICAGO
+'IN: Indianapolis - Brand': INDIANAPOLIS
+'IN: Indianapolis - Brand (Mobile)': INDIANAPOLIS
+'IN: Indianapolis - Kool Smiles': INDIANAPOLIS
+'IN: Indianapolis - Kool Smiles (Mobile)': INDIANAPOLIS
+'IN: Indianapolis - Kool Smiles - Spanish': INDIANAPOLIS
+'IN: Indianapolis - Low QS KWs - Brand': INDIANAPOLIS
+'IN: Indianapolis - Low QS KWs - NonBrand': INDIANAPOLIS
+'IN: Indianapolis - Low QS KWs - NonBrand (Mobile)': INDIANAPOLIS
+'IN: Lafayette - Brand': LAFAYETTE, IN
+'IN: Lafayette - Brand (Mobile)': LAFAYETTE, IN
+'IN: Lafayette - Kool Smiles': LAFAYETTE, IN
+'IN: Lafayette - Kool Smiles (Mobile)': LAFAYETTE, IN
+'IN: Lafayette - Kool Smiles - Spanish': LAFAYETTE, IN
+'IN: Lafayette - Low QS KWs - Brand': LAFAYETTE, IN
+'IN: Lafayette - Low QS KWs - NonBrand': LAFAYETTE, IN
+'IN: Lafayette - Low QS KWs - NonBrand (Mobile)': LAFAYETTE, IN
+'IN: Terre Haute - Brand': TERRE HAUTE
+'IN: Terre Haute - Brand (Mobile)': TERRE HAUTE
+'IN: Terre Haute - Kool Smiles': TERRE HAUTE
+'IN: Terre Haute - Kool Smiles (Mobile)': TERRE HAUTE
+'IN: Terre Haute - Kool Smiles - Spanish': TERRE HAUTE
+'IN: Terre Haute - Low QS KWs - Brand': TERRE HAUTE
+'IN: Terre Haute - Low QS KWs - NonBrand': TERRE HAUTE
+'KY: Lexington - Brand': LEXINGTON
+'KY: Lexington - Brand (Mobile)': LEXINGTON
+'KY: Lexington - Kool Smiles': LEXINGTON
+'KY: Lexington - Kool Smiles (Mobile)': LEXINGTON
+'KY: Lexington - Kool Smiles - Spanish': LEXINGTON
+'KY: Lexington - Low QS KWs - Brand': LEXINGTON
+'KY: Lexington - Low QS KWs - NonBrand': LEXINGTON
+'KY: Lexington - Low QS KWs - NonBrand (Mobile)': LEXINGTON
+'KY: Louisville - Brand': LOUISVILLE
+'KY: Louisville - Brand (Mobile)': LOUISVILLE
+'KY: Louisville - Kool Smiles': LOUISVILLE
+'KY: Louisville - Kool Smiles (Mobile)': LOUISVILLE
+'KY: Louisville - Kool Smiles - Spanish': LOUISVILLE
+'KY: Louisville - Low QS KWs - Brand': LOUISVILLE
+'KY: Louisville - Low QS KWs - NonBrand': LOUISVILLE
+'KY: Louisville - Low QS KWs - NonBrand (Mobile)': LOUISVILLE
+'LA: Baton Rouge - Brand': BATON ROUGE
+'LA: Baton Rouge - Brand (Mobile)': BATON ROUGE
+'LA: Baton Rouge - Kool Smiles': BATON ROUGE
+'LA: Baton Rouge - Kool Smiles (Mobile)': BATON ROUGE
+'LA: Baton Rouge - Kool Smiles - Spanish': BATON ROUGE
+'LA: Baton Rouge - Low QS KWs - Brand': BATON ROUGE
+'LA: Baton Rouge - Low QS KWs - NonBrand': BATON ROUGE
+'LA: Baton Rouge - Low QS KWs - NonBrand (Mobile)': BATON ROUGE
+'LA: Lafayette - Brand': LAFAYETTE, LA
+'LA: Lafayette - Brand (Mobile)': LAFAYETTE, LA
+'LA: Lafayette - Kool Smiles': LAFAYETTE, LA
+'LA: Lafayette - Kool Smiles (Mobile)': LAFAYETTE, LA
+'LA: Lafayette - Kool Smiles - Spanish': LAFAYETTE, LA
+'LA: Lafayette - Low QS KWs - Brand': LAFAYETTE, LA
+'LA: Lafayette - Low QS KWs - NonBrand': LAFAYETTE, LA
+'LA: Lafayette - Low QS KWs - NonBrand (Mobile)': LAFAYETTE, LA
+'LA: Lake Charles - Brand': LAKE CHARLES
+'LA: Lake Charles - Brand (Mobile)': LAKE CHARLES
+'LA: Lake Charles - Kool Smiles': LAKE CHARLES
+'LA: Lake Charles - Kool Smiles (Mobile)': LAKE CHARLES
+'LA: Lake Charles - Kool Smiles - Spanish': LAKE CHARLES
+'LA: Lake Charles - Low QS KWs - NonBrand': LAKE CHARLES
+'LA: Monroe - Brand': MONROE-EL DORADO
+'LA: Monroe - Brand (Mobile)': MONROE-EL DORADO
+'LA: Monroe - Kool Smiles': MONROE-EL DORADO
+'LA: Monroe - Kool Smiles (Mobile)': MONROE-EL DORADO
+'LA: Monroe - Kool Smiles - Spanish': MONROE-EL DORADO
+'LA: Monroe - Low QS KWs - Brand': MONROE-EL DORADO
+'LA: Monroe - Low QS KWs - NonBrand': MONROE-EL DORADO
+'LA: New Orleans - Brand': NEW ORLEANS
+'LA: New Orleans - Brand (Mobile)': NEW ORLEANS
+'LA: New Orleans - Kool Smiles': NEW ORLEANS
+'LA: New Orleans - Kool Smiles (Mobile)': NEW ORLEANS
+'LA: New Orleans - Kool Smiles - Spanish': NEW ORLEANS
+'LA: New Orleans - Low QS KWs - Brand': NEW ORLEANS
+'LA: New Orleans - Low QS KWs - NonBrand': NEW ORLEANS
+'LA: New Orleans - Low QS KWs - NonBrand (Mobile)': NEW ORLEANS
+'LA: Shreveport - Brand': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Brand (Mobile)': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Kool Smiles': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Kool Smiles (Mobile)': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Kool Smiles - Spanish': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Low QS KWs - Brand': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Low QS KWs - NonBrand': SHREVEPORT-TEXARKANA
+'LA: Shreveport - Low QS KWs - NonBrand (Mobile)': SHREVEPORT-TEXARKANA
+'MA: Boston - Brand': BOSTON
+'MA: Boston - Brand (Mobile)': BOSTON
+'MA: Boston - Kool Smiles': BOSTON
+'MA: Boston - Kool Smiles (Mobile)': BOSTON
+'MA: Boston - Kool Smiles - Spanish': BOSTON
+'MA: Boston - Low QS KWs - Brand': BOSTON
+'MA: Boston - Low QS KWs - NonBrand': BOSTON
+'MA: Boston - Low QS KWs - NonBrand (Mobile)': BOSTON
+'MA: Providence - Brand': PROVIDENCE-NEW BEDFORD
+'MA: Providence - Brand (Mobile)': PROVIDENCE-NEW BEDFORD
+'MA: Providence - Kool Smiles': PROVIDENCE-NEW BEDFORD
+'MA: Providence - Kool Smiles (Mobile)': PROVIDENCE-NEW BEDFORD
+'MA: Providence - Kool Smiles - Spanish': PROVIDENCE-NEW BEDFORD
+'MA: Providence - Low QS KWs - NonBrand': PROVIDENCE-NEW BEDFORD
+'MA: Providence - Low QS KWs - NonBrand (Mobile)': PROVIDENCE-NEW BEDFORD
+'MA: Springfield - Brand': SPRINGFIELD, MA
+'MA: Springfield - Brand (Mobile)': SPRINGFIELD, MA
+'MA: Springfield - Kool Smiles': SPRINGFIELD, MA
+'MA: Springfield - Kool Smiles (Mobile)': SPRINGFIELD, MA
+'MA: Springfield - Kool Smiles - Spanish': SPRINGFIELD, MA
+'MA: Springfield - Low QS KWs - Brand': SPRINGFIELD, MA
+'MA: Springfield - Low QS KWs - NonBrand': SPRINGFIELD, MA
+'MA: Springfield - Low QS KWs - NonBrand (Mobile)': SPRINGFIELD, MA
+'MD: Baltimore - Brand': BALTIMORE
+'MD: Baltimore - Brand (Mobile)': BALTIMORE
+'MD: Baltimore - Kool Smiles': BALTIMORE
+'MD: Baltimore - Kool Smiles (Mobile)': BALTIMORE
+'MD: Baltimore - Kool Smiles - Spanish': BALTIMORE
+'MD: Baltimore - Low QS KWs - Brand': BALTIMORE
+'MD: Baltimore - Low QS KWs - NonBrand': BALTIMORE
+'MD: Baltimore - Low QS KWs - NonBrand (Mobile)': BALTIMORE
+'MD: Salisbury - Brand': SALISBURY
+'MD: Salisbury - Brand (Mobile)': SALISBURY
+'MD: Salisbury - Kool Smiles': SALISBURY
+'MD: Salisbury - Kool Smiles (Mobile)': SALISBURY
+'MD: Salisbury - Kool Smiles - Spanish': SALISBURY
+'MD: Salisbury - Low QS KWs - Brand': SALISBURY
+'MD: Salisbury - Low QS KWs - NonBrand': SALISBURY
+'MS: Biloxi - Brand': BILOXI-GULFPORT-PASCAGOULA
+'MS: Biloxi - Brand (Mobile)': BILOXI-GULFPORT-PASCAGOULA
+'MS: Biloxi - Kool Smiles': BILOXI-GULFPORT-PASCAGOULA
+'MS: Biloxi - Kool Smiles (Mobile)': BILOXI-GULFPORT-PASCAGOULA
+'MS: Biloxi - Kool Smiles - Spanish': BILOXI-GULFPORT-PASCAGOULA
+'MS: Biloxi - Low QS KWs - Brand': BILOXI-GULFPORT-PASCAGOULA
+'MS: Biloxi - Low QS KWs - NonBrand': BILOXI-GULFPORT-PASCAGOULA
+'MS: Hattiesburg - Brand': HATTIESBURG-LAUREL
+'MS: Hattiesburg - Brand (Mobile)': HATTIESBURG-LAUREL
+'MS: Hattiesburg - Kool Smiles': HATTIESBURG-LAUREL
+'MS: Hattiesburg - Kool Smiles (Mobile)': HATTIESBURG-LAUREL
+'MS: Hattiesburg - Kool Smiles - Spanish': HATTIESBURG-LAUREL
+'MS: Hattiesburg - Low QS KWs - NonBrand': HATTIESBURG-LAUREL
+'MS: Jackson - Brand': JACKSON, MS
+'MS: Jackson - Brand (Mobile)': JACKSON, MS
+'MS: Jackson - Kool Smiles': JACKSON, MS
+'MS: Jackson - Kool Smiles (Mobile)': JACKSON, MS
+'MS: Jackson - Kool Smiles - Spanish': JACKSON, MS
+'MS: Jackson - Low QS KWs - Brand': JACKSON, MS
+'MS: Jackson - Low QS KWs - NonBrand': JACKSON, MS
+'MS: Jackson - Low QS KWs - NonBrand (Mobile)': JACKSON, MS
+'MS: Tupelo - Brand': COLUMBUS-TUPELO, MS
+'MS: Tupelo - Brand (Mobile)': COLUMBUS-TUPELO, MS
+'MS: Tupelo - Kool Smiles': COLUMBUS-TUPELO, MS
+'MS: Tupelo - Kool Smiles (Mobile)': COLUMBUS-TUPELO, MS
+'MS: Tupelo - Kool Smiles - Spanish': COLUMBUS-TUPELO, MS
+'MS: Tupelo - Low QS KWs - NonBrand': COLUMBUS-TUPELO, MS
+'NM: Las Cruces - Brand': EL PASO
+'NM: Las Cruces - Brand (Mobile)': EL PASO
+'NM: Las Cruces - Kool Smiles': EL PASO
+'NM: Las Cruces - Kool Smiles (Mobile)': EL PASO
+'NM: Las Cruces - Kool Smiles - Spanish': EL PASO
+'NM: Las Cruces - Low QS KWs - Brand': EL PASO
+'NM: Las Cruces - Low QS KWs - NonBrand': EL PASO
+'OK: Midwest City - Brand': OKLAHOMA CITY
+'OK: Midwest City - Brand (Mobile)': OKLAHOMA CITY
+'OK: Midwest City - Kool Smiles': OKLAHOMA CITY
+'OK: Midwest City - Kool Smiles (Mobile)': OKLAHOMA CITY
+'OK: Midwest City - Kool Smiles - Spanish': OKLAHOMA CITY
+'OK: Midwest City - Low QS KWs - Brand': OKLAHOMA CITY
+'OK: Midwest City - Low QS KWs - NonBrand': OKLAHOMA CITY
+'OK: Midwest City - Low QS KWs - NonBrand (Mobile)': OKLAHOMA CITY
+'SC: Charleston - Brand': CHARLESTON, SC
+'SC: Charleston - Brand (Mobile)': CHARLESTON, SC
+'SC: Charleston - Kool Smiles': CHARLESTON, SC
+'SC: Charleston - Kool Smiles (Mobile)': CHARLESTON, SC
+'SC: Charleston - Kool Smiles - Spanish': CHARLESTON, SC
+'SC: Charleston - Low QS KWs - Brand': CHARLESTON, SC
+'SC: Charleston - Low QS KWs - NonBrand': CHARLESTON, SC
+'SC: Charleston - Low QS KWs - NonBrand (Mobile)': CHARLESTON, SC
+'SC: Columbia - Brand': COLUMBIA, SC
+'SC: Columbia - Brand (Mobile)': COLUMBIA, SC
+'SC: Columbia - Kool Smiles': COLUMBIA, SC
+'SC: Columbia - Kool Smiles (Mobile)': COLUMBIA, SC
+'SC: Columbia - Kool Smiles - Spanish': COLUMBIA, SC
+'SC: Columbia - Low QS KWs - Brand': COLUMBIA, SC
+'SC: Columbia - Low QS KWs - NonBrand': COLUMBIA, SC
+'SC: Columbia - Low QS KWs - NonBrand (Mobile)': COLUMBIA, SC
+'SC: Greenville/Anderson - Brand': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Brand (Mobile)': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Kool Smiles': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Kool Smiles (Mobile)': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Kool Smiles - Spanish': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Low QS KWs - Brand': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Low QS KWs - NonBrand': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Greenville/Anderson - Low QS KWs - NonBrand (Mobile)': GREENVILLE-SPARTENBURG-ASHEVIL
+'SC: Rock Hill - Brand': CHARLOTTE
+'SC: Rock Hill - Brand (Mobile)': CHARLOTTE
+'SC: Rock Hill - Kool Smiles': CHARLOTTE
+'SC: Rock Hill - Kool Smiles (Mobile)': CHARLOTTE
+'SC: Rock Hill - Kool Smiles - Spanish': CHARLOTTE
+'SC: Rock Hill - Low QS KWs - NonBrand': CHARLOTTE
+'TX: Abilene - Brand': ABILENE-SWEETWATER
+'TX: Abilene - Brand (Mobile)': ABILENE-SWEETWATER
+'TX: Abilene - Kool Smiles': ABILENE-SWEETWATER
+'TX: Abilene - Kool Smiles (Mobile)': ABILENE-SWEETWATER
+'TX: Abilene - Kool Smiles - Spanish': ABILENE-SWEETWATER
+'TX: Abilene - Low QS KWs - Brand': ABILENE-SWEETWATER
+'TX: Abilene - Low QS KWs - NonBrand': ABILENE-SWEETWATER
+'TX: Amarillo - Brand': AMARILLO
+'TX: Amarillo - Brand (Mobile)': AMARILLO
+'TX: Amarillo - Kool Smiles': AMARILLO
+'TX: Amarillo - Kool Smiles (Mobile)': AMARILLO
+'TX: Amarillo - Kool Smiles - Spanish': AMARILLO
+'TX: Amarillo - Low QS KWs - Brand': AMARILLO
+'TX: Amarillo - Low QS KWs - NonBrand': AMARILLO
+'TX: Amarillo - Low QS KWs - NonBrand (Mobile)': AMARILLO
+'TX: El Paso - Brand': EL PASO
+'TX: El Paso - Brand (Mobile)': EL PASO
+'TX: El Paso - Kool Smiles': EL PASO
+'TX: El Paso - Kool Smiles (Mobile)': EL PASO
+'TX: El Paso - Kool Smiles - Spanish': EL PASO
+'TX: El Paso - Low QS KWs - Brand': EL PASO
+'TX: El Paso - Low QS KWs - NonBrand': EL PASO
+'TX: El Paso - Low QS KWs - NonBrand (Mobile)': EL PASO
+'TX: Harlingen - Brand': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Brand (Mobile)': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Kool Smiles': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Kool Smiles (Mobile)': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Kool Smiles - Spanish': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Low QS KWs - Brand': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Low QS KWs - NonBrand': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Harlingen - Low QS KWs - NonBrand (Mobile)': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Houston - Brand': HOUSTON
+'TX: Houston - Brand (Mobile)': HOUSTON
+'TX: Houston - Kool Smiles': HOUSTON
+'TX: Houston - Kool Smiles (Mobile)': HOUSTON
+'TX: Houston - Kool Smiles - Spanish': HOUSTON
+'TX: Houston - Low QS KWs - Brand': HOUSTON
+'TX: Houston - Low QS KWs - NonBrand': HOUSTON
+'TX: Houston - Low QS KWs - NonBrand (Mobile)': HOUSTON
+'TX: Laredo - Brand': LAREDO
+'TX: Laredo - Brand (Mobile)': LAREDO
+'TX: Laredo - Kool Smiles': LAREDO
+'TX: Laredo - Kool Smiles (Mobile)': LAREDO
+'TX: Laredo - Kool Smiles - Spanish': LAREDO
+'TX: Laredo - Low QS KWs - NonBrand': LAREDO
+'TX: Lubbock - Brand': LUBBOCK
+'TX: Lubbock - Brand (Mobile)': LUBBOCK
+'TX: Lubbock - Kool Smiles': LUBBOCK
+'TX: Lubbock - Kool Smiles (Mobile)': LUBBOCK
+'TX: Lubbock - Kool Smiles - Spanish': LUBBOCK
+'TX: Lubbock - Low QS KWs - Brand': LUBBOCK
+'TX: Lubbock - Low QS KWs - NonBrand': LUBBOCK
+'TX: Midland/Odessa - Brand': ODESSA-MIDLAND
+'TX: Midland/Odessa - Brand (Mobile)': ODESSA-MIDLAND
+'TX: Midland/Odessa - Kool Smiles': ODESSA-MIDLAND
+'TX: Midland/Odessa - Kool Smiles (Mobile)': ODESSA-MIDLAND
+'TX: Midland/Odessa - Kool Smiles - Spanish': ODESSA-MIDLAND
+'TX: Midland/Odessa - Low QS KWs - Brand': ODESSA-MIDLAND
+'TX: Midland/Odessa - Low QS KWs - NonBrand': ODESSA-MIDLAND
+'TX: Midland/Odessa - Low QS KWs - NonBrand (Mobile)': ODESSA-MIDLAND
+'TX: San Angelo - Brand': SAN ANGELO
+'TX: San Angelo - Brand (Mobile)': SAN ANGELO
+'TX: San Angelo - Kool Smiles': SAN ANGELO
+'TX: San Angelo - Kool Smiles (Mobile)': SAN ANGELO
+'TX: San Angelo - Kool Smiles - Spanish': SAN ANGELO
+'TX: San Angelo - Low QS KWs - Brand': SAN ANGELO
+'TX: San Angelo - Low QS KWs - NonBrand': SAN ANGELO
+'TX: San Antonio - Brand': SAN ANTONIO
+'TX: San Antonio - Brand (Mobile)': SAN ANTONIO
+'TX: San Antonio - Kool Smiles': SAN ANTONIO
+'TX: San Antonio - Kool Smiles (Mobile)': SAN ANTONIO
+'TX: San Antonio - Kool Smiles - Spanish': SAN ANTONIO
+'TX: San Antonio - Low QS KWs - Brand': SAN ANTONIO
+'TX: San Antonio - Low QS KWs - Brand (Mobile)': SAN ANTONIO
+'TX: San Antonio - Low QS KWs - NonBrand': SAN ANTONIO
+'TX: San Antonio - Low QS KWs - NonBrand (Mobile)': SAN ANTONIO
+'TX: Sherman-Denison - Brand': SHERMAN-ADA
+'TX: Sherman-Denison - Brand (Mobile)': SHERMAN-ADA
+'TX: Sherman-Denison - Kool Smiles': SHERMAN-ADA
+'TX: Sherman-Denison - Kool Smiles (Mobile)': SHERMAN-ADA
+'TX: Sherman-Denison - Kool Smiles - Spanish': SHERMAN-ADA
+'TX: Sherman-Denison - Low QS KWs - Brand': SHERMAN-ADA
+'TX: Sherman-Denison - Low QS KWs - NonBrand': SHERMAN-ADA
+'TX: Sherman-Denison - Low QS KWs - NonBrand (Mobile)': SHERMAN-ADA
+'TX: Texas City - Brand': HOUSTON
+'TX: Texas City - Brand (Mobile)': HOUSTON
+'TX: Texas City - Kool Smiles': HOUSTON
+'TX: Texas City - Kool Smiles (Mobile)': HOUSTON
+'TX: Texas City - Kool Smiles - Spanish': HOUSTON
+'TX: Texas City - Low QS KWs - NonBrand': HOUSTON
+'TX: Tyler - Brand': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Brand (Mobile)': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Kool Smiles': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Kool Smiles (Mobile)': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Kool Smiles - Spanish': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Low QS KWs - Brand': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Low QS KWs - NonBrand': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Tyler - Low QS KWs - NonBrand (Mobile)': TYLER-LONGVIEW-JACKSONVILLE
+'TX: Waco - Brand': WACO-TEMPLE-BRYAN
+'TX: Waco - Brand (Mobile)': WACO-TEMPLE-BRYAN
+'TX: Waco - Kool Smiles': WACO-TEMPLE-BRYAN
+'TX: Waco - Kool Smiles (Mobile)': WACO-TEMPLE-BRYAN
+'TX: Waco - Kool Smiles - Spanish': WACO-TEMPLE-BRYAN
+'TX: Waco - Low QS KWs - Brand': WACO-TEMPLE-BRYAN
+'TX: Waco - Low QS KWs - NonBrand': WACO-TEMPLE-BRYAN
+'TX: Waco - Low QS KWs - NonBrand (Mobile)': WACO-TEMPLE-BRYAN
+'TX: Weslaco - Brand': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Weslaco - Kool Smiles': HARLINGEN-WSLCO-BROWNSVILLE-MC
+'TX: Wichita Falls - Brand': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Brand (Mobile)': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Kool Smiles': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Kool Smiles (Mobile)': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Kool Smiles - Spanish': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Low QS KWs - Brand': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Low QS KWs - NonBrand': WICHITA FALLS-LAWTON
+'TX: Wichita Falls - Low QS KWs - NonBrand (Mobile)': WICHITA FALLS-LAWTON
+'VA: Norfolk - Brand': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Norfolk - Brand (Mobile)': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Norfolk - Kool Smiles': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Norfolk - Kool Smiles (Mobile)': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Norfolk - Kool Smiles - Spanish': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Norfolk - Low QS KWs - NonBrand': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Norfolk - Low QS KWs - NonBrand (Mobile)': NORFOLK-PORTSMOUTH-NEWPORT NEW
+'VA: Richmond - Brand': RICHMOND
+'VA: Richmond - Brand (Mobile)': RICHMOND
+'VA: Richmond - Kool Smiles': RICHMOND
+'VA: Richmond - Kool Smiles (Mobile)': RICHMOND
+'VA: Richmond - Kool Smiles - Spanish': RICHMOND
+'VA: Richmond - Low QS KWs - Brand': RICHMOND
+'VA: Richmond - Low QS KWs - NonBrand': RICHMOND
+'VA: Richmond - Low QS KWs - NonBrand (Mobile)': RICHMOND
+'VA: Roanoke - Brand': ROANOKE-LYNCHBURG
+'VA: Roanoke - Brand (Mobile)': ROANOKE-LYNCHBURG
+'VA: Roanoke - Kool Smiles': ROANOKE-LYNCHBURG
+'VA: Roanoke - Kool Smiles (Mobile)': ROANOKE-LYNCHBURG
+'VA: Roanoke - Kool Smiles - Spanish': ROANOKE-LYNCHBURG
+'VA: Roanoke - Low QS KWs - Brand': ROANOKE-LYNCHBURG
+'VA: Roanoke - Low QS KWs - NonBrand': ROANOKE-LYNCHBURG
+'VA: Roanoke - Low QS KWs - NonBrand (Mobile)': ROANOKE-LYNCHBURG
+'Washington DC - Brand': WASHINGTON, DC
+'Washington DC - Brand (Mobile)': WASHINGTON, DC
+'Washington DC - Kool Smiles': WASHINGTON, DC
+'Washington DC - Kool Smiles (Mobile)': WASHINGTON, DC
+'Washington DC - Kool Smiles - Spanish': WASHINGTON, DC
+'Washington DC - Low QS KWs - Brand': WASHINGTON, DC
+'Washington DC - Low QS KWs - NonBrand': WASHINGTON, DC
+'Washington DC - Low QS KWs - NonBrand (Mobile)': WASHINGTON, DC

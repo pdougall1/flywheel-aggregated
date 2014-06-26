@@ -1,0 +1,181 @@
+---
+LUBBOCK:
+- d|c|TX:Lubbock|TX|5707_4th_St_Lubbock_TX_79416
+- d|c|TX:Lubbock|TX|1923_Marsha_Sharp_Fwy_Lubbock_TX_79415
+- d|c|TX:Lubbock|TX|2903_50th_St_Lubbock_TX_79413
+CHARLOTTE:
+- d|c|SC:Charlotte|SC|2349_Cherry_Rd_Rock_Hill_SC_29732
+BALTIMORE:
+- d|c|MD:Baltimore|MD|5700_Ritchie_Hwy_Brooklyn_Park_MD_21225
+- d|c|MD:Baltimore|MD|1900_N._Broadway_Baltimore_MD_21213
+- d|c|MD:Baltimore|MD|2429_Frederick_Ave._Baltimore_MD_21223
+- d|c|MD:Baltimore|MD|4173_Patterson_Ave._Baltimore_MD_21215
+- d|c|MD:Baltimore|MD|7839_Eastern_Ave_Baltimore_MD_21224
+LOUISVILLE:
+- d|c|KY:Louisville|KY|201_Towne_Dr_Elizabethtown_KY_42701
+- d|c|KY:Louisville|KY|3510_Bardstown_Rd_Louisville_KY_40218
+- d|c|KY:Louisville|KY|1211_W_Broadway_Louisville_KY_40203
+LAFAYETTE, IN:
+- d|c|IN:Lafayette_IN|IN|4315_Commerce_Drive_Lafayette_IN_47905
+COLUMBUS, GA:
+- d|c|GA:Columbus|GA|4519_Woodruff_Rd_Columbus_GA_31904
+EL PASO:
+- d|c|TX:El_Paso|TX|5130_Fairbanks_Dr_El_Paso_TX_79924
+- d|c|TX:El_Paso|TX|1840_N_Lee_Trevino_Dr_El_Paso_TX_79936
+- d|c|TX:El_Paso|TX|6910_N_Mesa_St_El_Paso_TX_79912
+- d|c|TX:El_Paso|TX|615_N._Zaragoza_Rd._El_Paso_TX_79907
+- d|c|TX:El_Paso|TX|6065_Montana_Ave._El_Paso_TX_79925
+- d|c|NM:Las_Cruces|NM|1300_El_Paseo_Rd._Las_Cruces_NM_88001
+GREENVILLE-SPARTENBURG-ASHEVIL:
+- d|c|SC:Greenville|SC|3227_W_Blue_Ridge_Dr_Greenville_SC_29611
+- d|c|SC:Greenville|SC|3112_N_Main_St_Anderson_SC_29621
+- d|c|SC:Greenville|SC|3_K_Mart_Plaza_Greenville_SC_29605
+- d|c|SC:Greenville|SC|629_Hwy_28_Bypass_Anderson_SC_29624
+WASHINGTON, DC:
+- d|c|MD:Washington_DC|MD|1580_Wesel_Blvd_Hagerstown_MD_21740
+- d|c|Washington_DC|VA|400_Southpark_Blvd_#_C_Colonial_Heights_VA_23834
+- d|c|VA:Washington_DC|VA|6537_Arlington_Blvd._Falls_Church_VA_22042
+- d|c|MD:Washington_DC|MD|6471_Marlboro_Pike_District_Heights_MD_20747
+- d|c|Washington_DC|DC|1531_Maryland_Ave_Ne_Washington_DC_20002
+- d|c|MD:Washington_DC|MD|1147_University_Blvd._E_Takoma_Park_MD_20912
+- d|c|VA:Washington_DC|VA|2065_S_Pleasant_Valley_Rd_Winchester_VA_22601
+HARLINGEN-WSLCO-BROWNSVILLE-MC:
+- d|c|TX:Harlingen|TX|1004_N_Texas_Blvd_Weslaco_TX_78596
+- d|c|TX:Harlingen|TX|2921_Boca_Chica_Blvd._Brownsville_TX_78521
+- d|c|TX:Harlingen|TX|213_E._Expressway_83_Mission_TX_78572
+- d|c|TX:Harlingen|TX|1301_E._US_Hwy._83_Mcallen_TX_78501
+HARTFORD-NEW HAVEN:
+- d|c|CT:Hartford|CT|105_Myrtle_St_New_Britain_CT_06051
+- d|c|CT:Hartford|CT|531_Elm_St_New_Haven_CT_06511
+- d|c|CT:Hartford|CT|738_Wolcott_St_Waterbury_CT_06705
+- d|c|CT:Hartford|CT|144_Boston_Ave_Bridgeport_CT_06610
+- d|c|CT:Hartford|CT|1888_Main_St_Hartford_CT_06120
+HATTIESBURG-LAUREL:
+- d|c|MS:Hattiesburg|MS|3720_Hardy_St_Hattiesburg_MS_39402
+CHICAGO:
+- d|c|IN:Chicago|IN|1021_W_5th_Ave_Gary_IN_46402
+- d|c|IN:Chicago|IN|8327_Indianapolis_Blvd._Highland_IN_46322
+- d|c|IN:Chicago|IN|1313_West_Chicago_Ave_East_Chicago_IN_46312
+WACO-TEMPLE-BRYAN:
+- d|c|TX:Waco|TX|1100_Lowes_Blvd_Killeen_TX_76542
+- d|c|TX:Waco|TX|529_Westview_Vlg_Waco_TX_76710
+- d|c|TX:Waco|TX|3111_S_Texas_Ave_Bryan_TX_77802
+- d|c|TX:Waco|TX|529_N_Valley_Mills_Dr._Waco_TX_76710
+LAFAYETTE, LA:
+- d|c|LA:Lafayette,_LA|LA|2001_Ne_Evangeline_Trwy_Lafayette_LA_70501
+LAKE CHARLES:
+- d|c|LA:Lake_Charles|LA|2706_Ryan_St_Lake_Charles_LA_70601
+LAREDO:
+- d|c|TX:Laredo|TX|2313_S_Zapata_Hwy_Laredo_TX_78046
+- d|c|TX:Laredo|TX|5300_San_Dario_Ave._Laredo_TX_78041
+TYLER-LONGVIEW-JACKSONVILLE:
+- d|c|TX:Tyler|TX|710_Estes_Dr_Longview_TX_75602
+- d|c|TX:Tyler|TX|400_N_Timberland_Dr_Lufkin_TX_75901
+- d|c|TX:Tyler|TX|1932_E._Se_Loop_323_Tyler_TX_75701
+- d|c|TX:Tyler|TX|2539_Judson_Rd._Longview_TX_75605
+MACON:
+- d|c|GA:Macon|GA|1386_Gray_Hwy_Macon_GA_31211
+SAN ANTONIO:
+- d|c|TX:San_Antonio|TX|3850_S_New_Braunfels_Ave_San_Antonio_TX_78223
+- d|c|TX:San_Antonio|TX|5601_Bandera_Rd._Leon_Valley_TX_78238
+- d|c|TX:San_Antonio|TX|432_S._Bibb_Ave._Eagle_Pass_TX_78852
+PROVIDENCE-NEW BEDFORD:
+- d|c|MA:Providence|MA|933_Pleasant_St_Fall_River_MA_02723
+- d|c|MA:Providence|MA|137_Hathaway_Rd._New_Bedford_MA_02746
+RICHMOND:
+- d|c|VA:Richmond|VA|3824_Mechanicsville_Tpke_Richmond_VA_23223
+- d|c|VA:Richmond|VA|4722_N._Southside_Plaza_St._Richmond_VA_23224
+SALISBURY:
+- d|c|MD:Salisbury|MD|406_N_Fruitland_Blvd_Salisbury_MD_21801
+SOUTH BEND-ELKHART:
+- d|c|IN:Elkhart|IN|3701_S_Main_Street_Ste_A150_Elkhart_IN_46517
+ATLANTA:
+- d|c|GA:Atlanta|GA|4030_Lawrenceville_Hwy._Lilburn_GA_30047
+- d|c|GA:Atlanta|GA|5495_Old_National_Hwy._Atlanta_GA_30349
+- d|c|GA:Atlanta|GA|1756_Candler_Rd_Decatur_GA_30032
+- d|c|GA:Atlanta|GA|4054_Buford_Hwy_Ne_Atlanta_GA_30345
+- d|c|GA:Atlanta|GA|2900_S_Cobb_Dr_Se_Smyrna_GA_30080
+- d|c|GA:Atlanta|GA|4458_Jonesboro_Rd_Forest_Park_GA_30297
+BATON ROUGE:
+- d|c|LA:Baton_Rouge|LA|3455_Government_St._Baton_Rouge_LA_70806
+BILOXI-GULFPORT-PASCAGOULA:
+- d|c|MS:Biloxi|MS|2650_Beach_Blvd._Biloxi_MS_39531
+BOSTON:
+- d|c|MA:Boston|MA|2181_Washington_St._Roxbury_MA_02119
+- d|c|MA:Boston|MA|715_Crescent_St._Brockton_MA_02302
+- d|c|MA:Boston|MA|1096_Revere_Beach_Pkwy_Chelsea_MA_02150
+COLUMBIA, SC:
+- d|c|SC:Columbia|SC|1121_Broad_St._Sumter_SC_29150
+- d|c|SC:Columbia|SC|5422_Forest_Dr_Columbia_SC_29206
+- d|c|SC:Columbia|SC|1350_Grove_Park_Drive_Orangeburg_SC_29115
+CHATTANOOGA:
+- d|c|GA:Chattanooga|GA|2107_E._Walnut_Ave._Dalton_GA_30721
+EVANSVILLE:
+- d|c|IN:Evansville|IN|400_E._Diamond_Ave._Evansville_IN_47711
+FT. SMITH:
+- d|c|AR:Ft._Smith|AR|5111_Rogers_Ave._Ft._Smith_AR_72903
+FT. WAYNE:
+- d|c|IN:Ft_Wayne|IN|1852_Bluffton_Rd._Ft._Wayne_IN_46809
+HOUSTON:
+- d|c|TX:Houston|TX|5341_Antoine_Dr._Houston_TX_77091
+- d|c|TX:Houston|TX|3840_Aldine_Mail_Rd_Houston_TX_77039
+- d|c|TX:Houston|TX|1012_20th_Street_North_Texas_City_TX_77590
+INDIANAPOLIS:
+- d|c|IN:Indianapolis|IN|2248_E._53rd_St._Indianapolis_IN_46220
+- d|c|IN:Indianapolis|IN|3658_East_St._Indianapolis_IN_46227
+JACKSON, MS:
+- d|c|MS:Jackson,_MS|MS|989_Ellis_Ave._Jackson_MS_39209
+- d|c|MS:Jackson,_MS|MS|4463_N._State_St._Jackson_MS_39206
+LEXINGTON:
+- d|c|KY:Lexington|KY|1301_Winchester_Rd._Lexington_KY_40505
+ODESSA-MIDLAND:
+- d|c|TX:Odessa-Midland|TX|1000_N._Midkiff_Rd._Midland_TX_79701
+MONROE-EL DORADO:
+- d|c|LA:El_Dorado|LA|2820_Louisville_Ave._Monroe_LA_71201
+LITTLE ROCK:
+- d|c|AR:Little_Rock|AR|2801_S._Olive_St._Pine_Bluff_AR_71603
+- d|c|AR:Little_Rock|AR|2000_S._University_Ave._Little_Rock_AR_72204
+SHERMAN-ADA:
+- d|c|TX:Sherman|TX|2916_N._US_Hwy._75_Sherman_TX_75090
+SPRINGFIELD, MA:
+- d|c|MA:Springfield,_MA|MA|217_South_St._Holyoke_MA_01040
+- d|c|MA:Springfield,_MA|MA|1070_Saint_James_Ave_Springfield_MA_01104
+TERRE HAUTE:
+- d|c|IN:Terre_Haute|IN|1800_Fort_Harrison_Rd._Terre_Haute_IN_47804
+NORFOLK-PORTSMOUTH-NEWPORT NEW:
+- d|c|VA:Norfolk|VA|4239_Holland_Rd._Va_Beach_VA_23452
+- d|c|VA:Norfolk|VA|14346_Warwick_Blvd._Newport_News_VA_23602
+- d|c|VA:Norfolk|VA|5900_E_Virginia_Beach_Blvd_Norfolk_VA_23502
+- d|c|VA:Norfolk|VA|4072_Victory_Blvd_Portsmouth_VA_23701
+- d|c|VA:Norfolk|VA|2165_Cunningham_Dr_Hampton_VA_23666
+- d|c|VA:Norfolk|VA|2338_E_Little_Creek_Rd_Norfolk_VA_23518
+TUCSON:
+- d|c|AZ:Tucson|AZ|5504_E._22nd_St._Tucson_AZ_85711
+- d|c|AZ:Tucson|AZ|2990_S_6th_Ave_Tucson_AZ_85713
+COLUMBUS-TUPELO, MS:
+- d|c|MS:Columbus,_MS|MS|401_S._Gloster_Tupelo_MS_38801
+WICHITA FALLS-LAWTON:
+- d|c|TX:Wichita_Falls|TX|3711_Gregory_St._Wichita_Falls_TX_76308
+ABILENE-SWEETWATER:
+- d|c|TX:Abilene|TX|4754_S_14th_St_Abilene_TX_79605
+- d|c|TX:Abilene|TX|1784_State_Hwy_351_Abilene_TX_79601
+AMARILLO:
+- d|c|TX:Amarillo|TX|2210_Bell_St_Amarillo_TX_79106
+SHREVEPORT-TEXARKANA:
+- d|c|LA:Shreveport|LA|3719_Jewella_Ave_Shreveport_LA_71109
+- d|c|TX:Shreveport|TX|2400_Richmond_Rd_Texarkana_TX_75503
+OKLAHOMA CITY:
+- d|c|OK:Oklahoma_City|OK|1200_South_Air_Depot_Rd._Midwest_City_OK_73110
+NEW ORLEANS:
+- d|c|LA:New_Orleans|LA|3057_Gentilly_Blvd._New_Orleans_LA_70122
+- d|c|LA:New_Orleans|LA|9018_Mansfield_Rd_Shreveport_LA_71118
+- d|c|LA:New_Orleans|LA|2222_Clearview_Pkwy_Metairie_LA_70001
+SAN ANGELO:
+- d|c|TX:San_Angelo|TX|4403_Sherwood_Wy._San_Angelo_TX_76901
+YUMA-EL CENTRO:
+- d|c|AZ:Yuma|AZ|2383_W_24th_St_Yuma_AZ_85364
+CHARLESTON, SC:
+- d|c|SC:Charleston|SC|4400_Dorchester_Rd_North_Charleston_SC_29405
+ROANOKE-LYNCHBURG:
+- d|c|VA:Roanoke|VA|135_Conston_Ave_Christiansburg_VA_24073
+- d|c|VA:Roanoke|VA|364_Lowes_Drive_Ste_J_Danville_VA_24540

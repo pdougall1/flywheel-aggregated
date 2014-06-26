@@ -4,7 +4,7 @@ class Reciever
 
   def initialize dates, type = 'all_logs'
     if valid_format? dates
-      @dates = dates.is_a?(Array) ? dates : [dates]
+      @dates = dates
     else
       return 'invalid date format'
     end
@@ -28,6 +28,7 @@ class Reciever
       uri = URI.parse("http://localhost:3000/#{@type}/#{date}")
       logs = get_logs uri
       process logs
+      puts 'LOGS PROCESSED'
     end
   end
 
@@ -42,20 +43,7 @@ class Reciever
   end
 
   def process logs
-    puts 'still need to process'
-    # sorted_logs = sort logs
-    # update sorted_logs
-  end
-
-  def sort logs
-    logs.reduce({}) do |acc, log|
-      id = sorting_id log
-      acc[id] ? acc[id] << log : acc[id] = [log]
-    end
-  end
-
-  def sorting_id log
-    "#{log['vendor']}_#{log['date'].strftime('%d-%m-%Y')}_#{log['media_channel']}_#{log['media_type']}_#{log['market']}"
+    logs = LogHandler.build_logs logs
   end
 
   def update sorted_logs
