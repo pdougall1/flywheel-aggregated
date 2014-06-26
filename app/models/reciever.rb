@@ -31,7 +31,7 @@ class Reciever
       if Rails.env == 'development'
         store_url = 'http://localhost:3000'
       elsif Rails.env == 'production'
-        store_url = 'http://flywheel-aggregated.herokuapp.com'
+        store_url = 'http://flywheel-store.herokuapp.com'
       end
       uri = URI.parse([store_url, @type, date].join('/'))
       logs = get_logs uri
@@ -61,7 +61,6 @@ class Reciever
       logs << Aggregator.build_log_row(vendor_name, _logs)
     end
     logs.each(&:save)
-    # Assessment.new({ beginning: date_range.first, ending: date_range.last }).update_tables
   end
 
 end
