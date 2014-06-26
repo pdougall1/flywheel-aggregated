@@ -1,3 +1,5 @@
+require 'net/http'
+
 class Reciever
 
   AVAILABLE_TYPES = ['all_logs']
