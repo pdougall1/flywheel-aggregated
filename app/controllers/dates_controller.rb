@@ -7,10 +7,10 @@ class DatesController < ApplicationController
   end
 
   def index
-    dates = params[:dates]
-    handler = LogHandler.new
-    logs = handler.find_logs(dates)
-    render json: logs
+    dates = (Date.parse(params[:beginning])..Date.parse(params[:ending])).map(&:to_s)
+    debugger
+    logs = LogHandler.new.find_logs(dates)
+    render json: { logs: logs}
   end
 
 end

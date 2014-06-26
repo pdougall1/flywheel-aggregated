@@ -5,6 +5,7 @@ class Reciever
   AVAILABLE_TYPES = ['all_logs']
 
   def initialize dates, type = 'all_logs'
+    dates = [dates] if dates.is_a? String
     if valid_format? dates
       @dates = dates
     else
@@ -27,7 +28,12 @@ class Reciever
 
   def handle_dates
     @dates.each do |date|
-      uri = URI.parse("http://localhost:3000/#{@type}/#{date}")
+      if Rails.env == 'development'
+        store_url = 'http://localhost:3000'
+      elsif Rails.env == 'production'
+        store_url = 'http://flywheel-aggregated.herokuapp.com'
+      end
+      uri = URI.parse([store_url, @type, date].join('/'))
       logs = get_logs uri
       process logs
       puts 'LOGS PROCESSED'

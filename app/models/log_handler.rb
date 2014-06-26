@@ -20,7 +20,7 @@ class LogHandler
     dates = [dates] unless dates.is_a? Array
     dates.map do |date|
       JSON.parse $redis.get(date) if $redis.get(date)
-    end.compact
+    end.flatten.compact
   end
 
   def self.sorting_id(log)

@@ -15,7 +15,7 @@ class Log
     ATTRIBUTES.each do |attr|
       self.send("#{attr.to_s}=".to_sym, @aggregator.send("get_#{attr.to_s}".to_sym, logs))
     end
-    self.unique_id = "#{self['vendor']}_#{self['date']}_#{self['media_channel']}_#{self['media_type']}_#{self['market']}"
+    self.unique_id = "#{self.vendor}_#{self.date}_#{self.media_channel}_#{self.media_type}_#{self.market}"
     self
   end
 
