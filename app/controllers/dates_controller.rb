@@ -7,8 +7,9 @@ class DatesController < ApplicationController
   end
 
   def index
-    dates = (Date.parse(params[:beginning])..Date.parse(params[:ending])).map(&:to_s)
-    debugger
+    ending = params[:ending] ? Date.parse(params[:ending]) : Date.today
+    beg = params[:beginning] ? Date.parse(params[:beginning]) : ending - 2.months
+    dates = (beg..ending).map(&:to_s)
     logs = LogHandler.new.find_logs(dates)
     render json: { logs: logs}
   end
