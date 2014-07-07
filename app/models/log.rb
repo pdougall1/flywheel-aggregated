@@ -30,6 +30,7 @@ class Log
       impressions: self.impressions,
       clicks: self.clicks,
       cost: self.cost,
+      calls: self.calls,
       napt: self.napt,
       nfam: self.nfam,
       eapt: self.eapt

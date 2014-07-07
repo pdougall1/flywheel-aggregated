@@ -6,7 +6,7 @@ class LogHandler
     rows = []
     sort(data["ad_view_logs"]).each do |k, logs|
       vendor_name = k.split('_')[0]
-      row = Aggregator.build_log_row(vendor_name, logs, data["mongoose_logs"], data["braxtel_logs"])
+      row = build_rows(vendor_name, logs, data["mongoose_logs"], data["braxtel_logs"])
       rows << row.get_values
     end
     if $redis.set(date, rows.to_json)
@@ -16,7 +16,11 @@ class LogHandler
     end
   end
 
-  def find_logs(dates)
+  def self.build_rows(vendor_name, logs, mongoose_logs, braxtel_logs)
+    Aggregator.build_log_row(vendor_name, logs, mongoose_logs, braxtel_logs)
+  end
+
+  def self.find_logs(dates)
     dates = [dates] unless dates.is_a? Array
     dates.map do |date|
       JSON.parse $redis.get(date) if $redis.get(date)

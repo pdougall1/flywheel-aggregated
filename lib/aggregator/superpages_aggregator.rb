@@ -1,14 +1,21 @@
 class Aggregator::SuperpagesAggregator < Aggregator::GeneralAggregator
 
-  def get_mongoose_logs logs
-    logs.map do |log|
-      market_to_tracking = Lookup::SuperpagesLookup.market_to_tracking_number[log['market']]
-      market_to_keyword = Lookup::SuperpagesLookup.market_to_keyword[log['market']]
-      @mongoose_logs.select do |l| 
-        l[tracking_number] == market_to_tracking || 
-        l[tracking_number] == market_to_keyword
+  def get_mongoose mongoose_logs, logs
+    market = logs.first['market'] || 'none'
+    keyword_lookup = Lookup::SuperpagesLookup.market_to_keyword
+    tracking_number_lookup = Lookup::SuperpagesLookup.market_to_tracking_number
+    _mongoose_logs = mongoose_logs.select do |m_log|
+      _market = nil
+      if (keyword = m_log['keyword']) && (keyword_lookup.key(keyword))
+        _market = keyword_lookup.key(keyword)
       end
-    end.compact
+
+      if !_market && (tracking_number = m_log['tracking_number']) && tracking_number_lookup.key(tracking_number)
+        _market = tracking_number_lookup.key(tracking_number)
+      end
+      market == _market
+    end
+    _mongoose_logs
   end
 
 end

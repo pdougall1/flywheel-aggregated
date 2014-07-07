@@ -9,24 +9,25 @@ module Aggregator
 
     def initialize logs, mongoose_logs, braxtel_logs
       @date = logs.first['date']
-      @mongoose_logs = mongoose_logs
-      @braxtel_logs = braxtel_logs
-      # @braxtel_logs  = @mongoose_logs.map do |log| 
-      #   braxtel_logs.select do |l| 
-      #     l['caller_id'] == log['caller_id'] && 
-      #     l['date'] == @date }.flatten
-      #   end
-      # end
+      if self.class.to_s.include? 'Marchex'
+        @braxtel_logs = braxtel_logs.select { |l| l['destination_number'] == '3177595209' }
+        caller_ids = @braxtel_logs.map { |l| l['caller_id'] }
+        @mongoose_logs = mongoose_logs.select do |m_log|
+          caller_ids.include? m_log['caller_id'] 
+        end
+      else
+        @mongoose_logs = get_mongoose(mongoose_logs, logs) 
+        @braxtel_logs = @mongoose_logs.map do |m_log| 
+          braxtel_logs.select do |b_log| 
+            b_log['caller_id'] == m_log['caller_id'] 
+          end
+        end.flatten
+        # debugger if self.class == Aggregator::CitygridAggregator
+      end
       @logs = logs
     end
 
     def log_row
-      # napt_count = self.get_napt @logs 
-      # nfam_count = self.get_nfam @logs 
-      # eapt_count = self.get_eapt @logs 
-      # total = napt_count + nfam_count + eapt_count
-      # test_log = total > 0 ? "napt : #{napt_count}, nfam : #{nfam_count}, eapt : #{eapt_count}" : nil
-      # File.open("/Users/look-listendev4/Projects/look-listen/client-data/log/processor_logs/citygrid_aggrigator.txt", 'a') {|f| f.puts test_log}
       Log.new(self, @logs)
     end
 
@@ -35,7 +36,10 @@ module Aggregator
     end
 
     def get_cost logs
-      logs.map {|l| l['cost'].to_i}.reduce(:+)
+      logs.reduce(0) do |acc, l|
+        acc = $math.add(acc, l['cost'].to_f)
+        acc
+      end
     end
 
     def get_impressions logs
@@ -43,6 +47,10 @@ module Aggregator
     end
 
     def get_calls logs
+      @mongoose_logs.reduce(0) do |acc, m_log|
+        acc += 1 if m_log['call_duration'].to_i >= 60
+        acc
+      end
     end
 
     def get_unique_id logs
@@ -69,7 +77,7 @@ module Aggregator
       logs.first['vendor']
     end
 
-    def get_mongoose_logs logs
+    def get_mongoose mongoose_logs, logs
       puts "need to define this method on the class specific aggregator"
       []
     end

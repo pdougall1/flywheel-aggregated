@@ -27,17 +27,25 @@ class Reciever
   end
 
   def handle_dates
+    m_logs = []
+    a_logs = []
     @dates.each do |date|
       if Rails.env == 'development'
-        store_url = 'http://localhost:3000'
+        store_url = 'http://localhost:3001'
       elsif Rails.env == 'production'
         store_url = 'http://flywheel-store.herokuapp.com'
       end
       uri = URI.parse([store_url, @type, date].join('/'))
       logs = get_logs uri
+      m_logs << logs.values.first['mongoose_logs']
+      a_logs << logs.values.first['ad_view_logs']
       process logs
-      puts 'LOGS PROCESSED'
+      # a_logs.flatten.map { |l| l['market'] }
+      debugger
+      # puts 'LOGS PROCESSED'
     end
+    debugger
+    puts 'dougs'
   end
 
   def get_logs uri
@@ -64,6 +72,15 @@ class Reciever
   end
 
 end
+
+
+
+
+
+# Reciever.new((Date.parse('2014-05-26')..Date.parse('2014-06-01')).map(&:to_s)).handle_dates
+
+
+
 
 
 
