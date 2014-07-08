@@ -1,17 +1,25 @@
-class DummyClass end
+class DummyClass 
+end
 
 require 'spec_helper'
 
-describe Arregator do
+
+describe Aggregator do
 
   before(:each) do
-    @dummy_class = DummyClass.new
-    @dummy_class.extend(Arregator)
+    vendor = 'citygrid'
+    logs = MockData.get_file('citygrid')
+    mongoose_logs = MockData.get_file('mongoose')
+    braxtel_logs = MockData.get_file('braxtel')
+    @log = LogHandler.build_log_row(vendor, logs, mongoose_logs, braxtel_logs)
   end
-  # pending "add some examples to (or delete) #{__FILE__}"
 
-  it 'should have a Report model' do
-    expect(@dummy_class).to eq(Report)
-  end
+  subject { @log }
+
+  it { should be_a Log }
+
+  # it 'should have a Report model' do
+  #   expect(@log).to eq(Log)
+  # end
 
 end

@@ -1,8 +1,10 @@
 module Aggregator
 
-  def self.build_log_row vendor, logs, mongoose_logs, braxtel_logs
+  def build_log_row vendor, logs, mongoose_logs, braxtel_logs
     agg = "Aggregator::#{vendor.to_constant_string}Aggregator".constantize.new logs, mongoose_logs, braxtel_logs
-    agg.log_row 
+    log = agg.log_row 
+    debugger
+    log
   end
 
   class Aggregator::GeneralAggregator
