@@ -23,9 +23,7 @@ class Report
         rows.each { |row| csv << headers.map { |h| row[h] } }
       end
     end
-
     csv_string
-    
   end
 
   def send_report(date_range)

@@ -6,14 +6,20 @@ class Log
 
   attr_accessor *ATTRIBUTES
 
-  def initialize(aggregator, logs)
+  attr_reader :aggregator
+
+  def initialize(aggregator)
     @aggregator = aggregator
-    set_values logs
+    set_values unless aggregator.has_many_rows
   end
 
-  def set_values logs
+  def get_logs
+    aggregator.has_many_rows ? aggregator.rows : [get_values]
+  end
+
+  def set_values
     ATTRIBUTES.each do |attr|
-      self.send("#{attr.to_s}=".to_sym, @aggregator.send("get_#{attr.to_s}".to_sym, logs))
+      self.send("#{attr.to_s}=".to_sym, aggregator.send("get_#{attr.to_s}".to_sym))
     end
     self.unique_id = "#{self.vendor}_#{self.date}_#{self.media_channel}_#{self.media_type}_#{self.market}"
     self
@@ -36,17 +42,7 @@ class Log
       eapt: self.eapt
     }
   end
-
-  # returns a hash { "log.sorting_id" => log_rows}
-  def self.get_call_logs date
-    call_logs = {}
-    CallLog.where("date = ?", date.to_datetime).each do |log|
-      id = log.sorting_id
-      call_logs[id] ? call_logs[id] << log : call_logs[id] = [log]
-    end
-    call_logs
-  end
-
+  
   def self.find_log_rows_for_day date
     key = date.strftime('%Y-%m-%d')
     if row = $redis.get("main:#{key}")

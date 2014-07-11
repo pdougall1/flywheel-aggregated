@@ -1,10 +1,10 @@
 class Aggregator::BingAggregator < Aggregator::GeneralAggregator
 
-  def get_mongoose mongoose_logs, logs
+  def get_mongoose
     market = logs.first['market'] || 'none'
     keyword_lookup = Lookup::GoogleBingLookup.parsed_keyword_to_market
     tracking_number_lookup = Lookup::GoogleBingLookup.market_to_tracking_number
-    _mongoose_logs = mongoose_logs.select do |m_log|
+    _mongoose_logs = all_mongoose_logs.select do |m_log|
       next if m_log['keyword_source'] != 'MSN'
       _market = nil
       if (keyword = m_log['keyword']) && (keyword.include?("|"))

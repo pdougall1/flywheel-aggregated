@@ -27,8 +27,6 @@ class Reciever
   end
 
   def handle_dates
-    m_logs = []
-    a_logs = []
     @dates.each do |date|
       if Rails.env == 'development'
         store_url = 'http://localhost:3001'
@@ -37,15 +35,8 @@ class Reciever
       end
       uri = URI.parse([store_url, @type, date].join('/'))
       logs = get_logs uri
-      m_logs << logs.values.first['mongoose_logs']
-      a_logs << logs.values.first['ad_view_logs']
       process logs
-      # a_logs.flatten.map { |l| l['market'] }
-      debugger
-      # puts 'LOGS PROCESSED'
     end
-    debugger
-    puts 'dougs'
   end
 
   def get_logs uri
@@ -59,7 +50,7 @@ class Reciever
   end
 
   def process logs
-    logs = LogHandler.build_logs logs
+    LogHandler.build_logs(logs, @dates)
   end
 
   def update sorted_logs
